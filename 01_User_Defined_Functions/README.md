@@ -37,3 +37,6 @@ The query returns sales records belonging to customer 90002002 for fiscal year 2
 ## Screenshots
 
 See screenshots folder for query and output images.
+## Output Screenshot
+
+![Output](get_fiscal_year_output.png)
