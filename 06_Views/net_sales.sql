@@ -1,7 +1,4 @@
 CREATE 
-    ALGORITHM = UNDEFINED 
-    DEFINER = `root`@`localhost` 
-    SQL SECURITY DEFINER
 VIEW `net_sales` AS
     SELECT 
         `sales_postinv_discount`.`date` AS `date`,
