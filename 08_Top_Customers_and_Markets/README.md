@@ -1,19 +1,22 @@
-# Customer Sales Share by Region
+# Top Customers and Markets
 
 ## Description
-This query calculates each customer's percentage contribution to total net sales within their region for fiscal year 2021.
+This section contains advanced SQL analysis using CTEs and Window Functions.
 
-## Concepts Used
+## Topics Covered
+- Top customers by net sales
+- Top markets by net sales
+- Customer percentage share by region
+
+## SQL Concepts Used
 - CTE (WITH clause)
-- SUM()
 - Window Functions
 - OVER()
 - PARTITION BY
+- SUM()
+- GROUP BY
 - ORDER BY
 
 ## Tables Used
 - net_sales
 - dim_customer
-
-## Output
-Shows customer, region, net sales (in millions), and percentage share within each region.
